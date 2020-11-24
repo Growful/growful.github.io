@@ -335,7 +335,7 @@ code {
 }
 
 hr {
-    background-color: #69A88D;
+    background-color: #176560;
     border: none;
     display: block;
     height: 2px;
@@ -11448,7 +11448,7 @@ img {
 }
 
 hr {
-    background-color: #69A88D;
+    background-color: #176560;
     height: 1px
 }
 
@@ -11739,7 +11739,7 @@ pre {
     position: relative;
     margin: 1.75rem 0;
     border: 0;
-    border-top: 1px solid #69A88D
+    border-top: 1px solid #176560
 }
 
 .markdown abbr {
