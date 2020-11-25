@@ -295,7 +295,7 @@ button,
 input,
 select,
 textarea {
-    font-family: Nunito Sans, sans-serif
+    font-family: "Quicksand";
 }
 
 code,
@@ -306,14 +306,14 @@ pre {
 }
 
 body {
-    color: #4a4a4a;
+    color: #176560;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5
 }
 
 a {
-    color: #3273dc;
+    color: #176560;
     cursor: pointer;
     text-decoration: none
 }
@@ -323,12 +323,12 @@ a strong {
 }
 
 a:hover {
-    color: #000
+    color: #69A88D
 }
 
 code {
     background-color: #fff;
-    color: #00b8d4;
+    color: #69A88D;
     font-size: .875em;
     font-weight: 400;
     padding: .25em .5em
@@ -6372,7 +6372,7 @@ print {
 .hero.is-danger .tabs.is-toggle li.is-active a:hover {
     background-color: #fff;
     border-color: #fff;
-    color: #f14668
+    color: #69A88D
 }
 
 .hero.is-danger.is-bold {
@@ -6392,7 +6392,7 @@ print {
 @media screen and (min-width:769px),
 print {
     .hero.is-medium .hero-body {
-        padding: 9rem 1.5rem
+        padding: 5rem 1.5rem
     }
 }
 
@@ -11414,23 +11414,23 @@ html.modal-open {
 }
 
 a {
-    color: #00b8d4
+    color: #176560
 }
 
 a:hover {
-    color: #000;
+    color: #69A88D;
     font-style: none
 }
 
 a:active {
-    color: #00b8d4
+    color: #69A88D
 }
 
 h1,
 h2,
 .title,
 .subtitle {
-    color: #222
+    color: #176560
 }
 
 .title {
@@ -11694,7 +11694,7 @@ pre {
 }
 
 .markdown a:hover {
-    color: #dbdbdb
+    color: #69A88D
 }
 
 .markdown ul {
@@ -11807,4 +11807,3 @@ pre {
 .modal-close {
     background-color: #000
 }
-
