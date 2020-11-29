@@ -195,7 +195,7 @@ h6 {
 }
 
 ul {
-    list-style: none
+    list-style: none;
 }
 
 button,
@@ -242,7 +242,7 @@ th:not([align]) {
 }
 
 html {
-    background-color: #fff;
+    background-color: #f3eee6;
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -365,7 +365,8 @@ pre code {
 
 table td,
 table th {
-    vertical-align: top
+    vertical-align: top;
+    color: #f3eee6
 }
 
 table td:not([align]),
@@ -373,9 +374,6 @@ table th:not([align]) {
     text-align: inherit
 }
 
-table th {
-    color: #363636
-}
 
 .has-text-white {
     color: #fff!important
@@ -2030,7 +2028,7 @@ print {
     flex-grow: 1;
     margin: 0 auto;
     position: relative;
-    width: auto
+    width: auto;
 }
 
 .container.is-fluid {
@@ -6367,7 +6365,7 @@ print {
 @media screen and (min-width:769px),
 print {
     .hero.is-medium .hero-body {
-        padding: 5rem 1.5rem
+        padding: 12rem 1.5rem
     }
 }
 
@@ -6579,11 +6577,13 @@ print {
 }
 
 .fa-pull-left {
-    float: left
+    float: left;
+    padding-left: 20%;
 }
 
 .fa-pull-right {
-    float: right
+    float: right;
+    padding-right: 20%;
 }
 
 .fa.fa-pull-left,
@@ -11683,9 +11683,9 @@ pre {
 }
 
 .markdown li {
-    margin-left: 1.5em;
-    list-style-position: outside;
-    padding-left: 1em
+    margin-left: 1%;
+    list-style-position: inside;
+    padding-left: 1%
 }
 
 .markdown ol {
@@ -11741,28 +11741,28 @@ pre {
 }
 
 .markdown table {
-    margin: 2em 0;
+    margin: none;
     width: 100%;
-    border: 1px solid #e5e5e5;
+    border: none;
     border-collapse: collapse
 }
 
 .markdown td,
 .markdown th {
     padding: .25rem .5rem;
-    border: 1px solid #e5e5e5;
+    border: none;
     text-align: center;
-    background-color: #f7f7f7
+    background-color: #f3eee6
 }
 
 .markdown tbody tr:nth-child(odd) td,
 .markdown tbody tr:nth-child(odd) th {
-    background-color: #dedede
+    background-color: #f3eee6
 }
 
 .markdown tbody tr:nth-child(even) td,
 .markdown tbody tr:nth-child(even) th {
-    background-color: #f7f7f7
+    background-color: #f3eee6
 }
 
 .markdown pre {

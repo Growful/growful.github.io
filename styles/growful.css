@@ -1,0 +1,268 @@
+* {
+    background-color: #f3eee6;
+}
+
+img {
+    border    : none;
+    box-shadow: none;
+}
+
+.navbar-item,
+.navbar-link {
+    color: #f3eee6
+}
+
+a.navbar-item:focus,
+a.navbar-item:hover,
+a.navbar-item.is-active,
+.navbar-link:focus,
+.navbar-link:hover,
+.navbar-link.is-active,
+.gfdropbtn {
+    background-color: #176560;
+    color           : #f3eee6
+}
+
+
+.gfdropbtn {
+    background-color: #69A88D;
+    color           : #f3eee6;
+    padding         : 16px;
+    font            : 400 15px/1.8 "Lato", sans-serif;
+    border          : none;
+    cursor          : pointer;
+}
+
+.gfdropbtn:hover,
+.gfdropbtn:focus {
+    background-color: #176560;
+}
+
+.gfdropdown {
+    position: relative;
+    display : inline-block;
+}
+
+.gfdropdown button {
+    display: inline-block;
+}
+
+.gfdropdown-content {
+    display         : none;
+    position        : absolute;
+    background-color: #f3eee6;
+    min-width       : 160px;
+    box-shadow      : 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.gfdropdown-content a {
+    color          : #f3eee6;
+    background-color: #69A88D;
+    padding        : 12px 16px;
+    text-decoration: none;
+    display        : block;
+}
+
+.gfdropdown-content a:hover {
+    background-color: #176560
+}
+
+.gfshow {
+    display: block;
+}
+
+
+
+body,
+html {
+    background-color: #f3eee6;
+    height          : 100%;
+    margin          : 0;
+    font            : "Quicksand";
+    color           : #176560;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgbox,
+.bgcandles,
+.bgetb,
+.bgsoap,
+.bgstraws,
+.bgtea,
+.bgcards {
+    position             : relative;
+    opacity              : 0.65;
+    background-attachment: fixed;
+    background-position  : center;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+
+}
+
+.bgimg-1 {
+    background-image: url("/imgs/bgimg-1.jpg");
+    padding-top: 10%;
+    padding-bottom: 10%
+}
+
+/* <span>Photo by <a href="https://unsplash.com/@whale?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Matthew Smith</a> on <a href="https://unsplash.com/s/photos/environment?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+bgimg-1 is from Unsplash thanks to Matthew Smith
+/*/
+
+.bgimg-2 {
+    background-image: url("/imgs/bgimg-2.jpg");
+    padding-top: 15%;
+    padding-bottom: 15%
+}
+
+.bgbox {
+    background-image: url("/imgs/thegiftbox/bgbox.jpg");
+    padding-top: 15%;
+    padding-bottom: 15%
+}
+
+/* <span>Image by <a href="https://pixabay.com/users/projekt_kaffeebart-5458960/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2696607">Projekt_Kaffeebart</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2696607">Pixabay</a></span>
+bgbox is from Pixabay thanks to Projekt_Kaffeebart
+/*/
+
+.bgcandles {
+    background-image: url("/imgs/thegiftbox/bgcandles.jpg");
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.bgetb {
+    background-image: url("/imgs/thegiftbox/bgetb.jpg");
+    padding-top: 15%;
+    padding-bottom: 15%
+}
+
+.bgsoap {
+    background-image: url("/imgs/thegiftbox/bgsoap.jpg");
+    padding-top: 15%;
+    padding-bottom: 15%
+}
+
+.bgstraws {
+    background-image: url("/imgs/thegiftbox/bgstraws.jpg");
+    padding-top: 15%;
+    padding-bottom: 15%
+}
+
+.bgtea {
+    background-image: url("/imgs/thegiftbox/bgtea.jpg");
+    padding-top: 15%;
+    padding-bottom: 15%
+}
+
+.bgcards {
+    background-image: url("/imgs/bgcards.jpg");
+    padding-top: 9%;
+    padding-bottom: 9%
+}
+
+.caption {
+    position  : absolute;
+    left      : 0;
+    top       : 50%;
+    width     : 100%;
+    text-align: center;
+    color     : #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color           : #fff;
+    padding         : 18px;
+    font-size       : 25px;
+    letter-spacing  : 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font          : 20px "Lato", sans-serif;
+    color         : #111;
+}
+
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgbox,
+    .bgcandles, 
+    .bgetb,
+    .bgsoap,
+    .bgstraws,
+    .bgtea,
+    .bgcards {
+        background-attachment: scroll;
+    }
+}
+
+.hero-head {
+    z-index: 99
+        /* ensures the dropdown floats over everything else */
+}
+
+.hero-foot {
+    z-index: 1
+}
+
+.imgborder {
+    border: 3px solid #176560;
+    padding: 1%;
+    border-radius: 25px;
+    margin-bottom: 2%
+}
+
+.ptxtboxmedium,
+.ptxtboxlarge,
+.ptxtboxsmall {
+    margin: auto;
+    border: 3px solid #176560;
+    padding: 10px;
+    border-radius: 25px
+}
+
+.ptxtboxlarge {
+    width: 75%;
+}
+
+.ptxtboxmedium {
+    width: 50%
+}
+
+.ptxtboxsmall {
+    width: 25%
+}
+
+.gffooter {
+    padding: 0;
+    padding-bottom: 14px
+}
+
+.leftelement {
+    float: left;
+    margin-right: 2.5%;
+}
+
+.rightelement {
+    float: right;
+    margin-left: 2.5%;
+}
+
+.gfcontainer {
+    overflow: auto
+}
+
+ul {
+    list-style-position: inside
+}
+
+.gftextvariation1 a{
+    color: #222222
+}

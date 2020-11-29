@@ -25,47 +25,158 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="/css/main.css" crossorigin="anonymous" media="screen">
-    <link rel="stylesheet" href="/css/owlCarousel.min.b1f26e29c43c61fe8b5a6f225b4ee7c5f969a7b33cfe512706271e07246d93d1.css" integrity="sha256-sfJuKcQ8Yf6LWm8iW07nxflpp7M8/lEnBiceByRtk9E=" crossorigin="anonymous" media="screen">
-    <link rel="stylesheet" href="/css/growfultemporary.css" crossorigin="anonymous" media="screen">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="/styles/owlCarousel.min.b1f26e29c43c61fe8b5a6f225b4ee7c5f969a7b33cfe512706271e07246d93d1.css" integrity="sha256-sfJuKcQ8Yf6LWm8iW07nxflpp7M8/lEnBiceByRtk9E=" crossorigin="anonymous" media="screen">
+    <link rel="stylesheet" href="/styles/growful.css" crossorigin="anonymous" media="screen">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">   
 </head>
 <body>
     <section id="top" class="hero is-medium">
+        <div class="hero-head"></div>
+        <div class="hero-foot fade-in">
+            <div class="container">
+                <hr>
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                    <div class="navbar-menu has-content-centered" id="navMenu">
+                        <div class="gfdropdown">
+                            <button onmouseover="gfddOnMouseOver(1)" onclick="gfddOnClick('index')" class="navbar-item gfdropbtn">Home</button>
+                            <div id="gfmyDropdown1" class="gfdropdown-content">
+                              <a href="/index.html#ourmessage">Our Message</a>
+                              <a href="/index.html#ourproducts">Our Products</a>
+                              <a href="/index.html#ourenvironmentalvalues">Our Environmental Values</a>
+                            </div>
+                        </div>
+                        <div class="gfdropdown">
+                            <button onmouseover="gfddOnMouseOver(2)" onclick="gfddOnClick('ourstory')" class="navbar-item gfdropbtn">Our Story</button>
+                            <div id="gfmyDropdown2" class="gfdropdown-content">
+                              <a href="/ourstory.html#workingwiththeenvironment">Working with the Environment</a>
+                              <a href="/ourstory.html#ourteam">Our Team</a>
+                              <a href="/ourstory.html#ourprinciples">Our Principles</a>
+                            </div>
+                        </div>
+                        <div class="gfdropdown">
+                            <button onmouseover="gfddOnMouseOver(3)" onclick="gfddOnClick('thegiftbox')"  class="navbar-item gfdropbtn">The Gift Box</button>
+                            <div id="gfmyDropdown3" class="gfdropdown-content">
+                                <a href="/thegiftbox.html#ourecologicalgiftbox">Our Ecological Gift Box</a>
+                                <a href="/thegiftbox.html#howitworks">How It Works</a>
+                                <a href="/thegiftbox.html#makingthechoices">Making the Choices</a>
+                            </div>
+                        </div>
+                        <div class="gfdropdown">
+                            <button onmouseover="gfddOnMouseOver(4)" onclick="gfddOnClick('shop')" class="navbar-item gfdropbtn">Shop</button>
+                            <div id="gfmyDropdown4" class="gfdropdown-content">
+                              <a href="/shop.html#purchasingdetails">Purchasing Details</a>
+                              <a href="/shop.html#ourgreetingscards">Our Greetings Cards</a>
+                              <a href="/shop.html#orderform">Order Form</a>
+                            </div>
+                        </div>
+                        <div class="gfdropdown">
+                            <button onmouseover="gfddOnMouseOver(5)" onclick="gfddOnClick('customercare')" class="navbar-item gfdropbtn">Customer Care</button>
+                            <div id="gfmyDropdown5" class="gfdropdown-content">
+                              <a href="/customercare.html">Customer Care</a>
+                              <a href="/customercare.html#oursocials">Our Socials</a>
+                              <a href="/customercare.html#contactus">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <hr>
+            </div>
+        </div>
         <div class="hero-body" z-index="2">
             <div class="container has-text-centered">
                 <img src="/imgs/logo_600_340.png" class="fade-in gftitle" alt="Growful" width="600" height="340">
                 <div class="subtitle is-3 fade-in one">
-                    <h1>Cultivating relationships</h1>
+                    <p>Cultivating relationships</p>
                 </div>
                 <div class="fade-in one">
                     <div class="social-icons">
                         <a href="https://www.instagram.com/growful_co/">
-                            <i class="fab fab fa-instagram"></i>                        
+                            <i class="fab fab fa-instagram"></i>
+                        </a>
                         <a href="mailto:growful.contact@gmail.com">
-                            <i class="fas fab fa-paper-plane"></i>
+                            <i class="fas fab fa-envelope"></i>
                         </a>
                     </div>
                 </div>
             </div>
         </div> 
     </section> 
-    <div class="section fade-in two" id="ourmessage">
-        <div class="container">
-            <hr>
-        </div>
-        <div class="container">
-            <h2 class="title is-2 has-text-centered">We're still growing...</h2>
+    <div class="container fade-in">
+        <hr>
+    </div>
+    <div class="section fade-in bgimg-2" id="ourmessage">
+        <div class="container ptxtboxmedium">
+            <h2 class="title is-2 has-text-centered">Our Message</h2>
             <div class="markdown has-text-centered">
-                <p>Our website is on its way!
-                    <br>
-                    But while you wait, make sure to follow our instagram! 
-                    <br>
-                    For any questions please email <strong><a href="mailto:growful.contact@gmail.com">growful.contact@gmail.com</a></strong>.
-                </p>
+                <p>We strive to make a difference, cultivating relationships through the power of plants. At a time where family, kindness, the environment and wellbeing has never been more important, we aim to help keep people connected together with a gift that grows on you.     </p>
+                <div class="container has-text-centered top-pad">
+                    <a href="#top">
+                        <i class="fa fa-arrow-up"></i>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="container">
-            <hr>
+    </div>
+    <div class="container fade-in">
+        <hr>
+    </div>
+    <div class="section fade-in" id="ourproducts">
+        <div class="container gfcontainer has-text-left">
+            <h2 class="title is-2">Our Products</h2>
+            <img src="/imgs/box4.JPG" class="leftelement" width="450" height="300">
+            <div class="markdown">
+                <p>We sell handmade seed paper infused cards with original hand drawn designs.</p>   
+                <p>With a touch of water your seed paper cards will grow into vibrant and sweet-smelling flowers.</p>
+                <p>Our eco-friendly Growful Gift box, tailored to you, is fully customisable. With all gifts locally sourced it is the perfect Christmas gift to any relative! Included with expandable coco coir and a seed paper Christmas Card, you can plant the card within the box to have colourful flowers blossoming within your own home all year round. </p>
+                <p>To see more, make sure to visit our tab for <strong><a href="/thegiftbox.html">The Gift Box</a></strong> or the <strong><a href="/shop.html">Shop</a></strong>.</p>
+            </div>
+            <div class="container has-text-centered top-pad">
+                <a href="#top">
+                    <i class="fa fa-arrow-up"></i>
+                </a>
+            </div>
         </div>
     </div>
+    <div class="container fade-in">
+        <hr>
+    </div>
+    <div class="section fade-in bgimg-1" id="ourenvironmentalvalues">
+        <div class="container ptxtboxlarge has-text-centered">
+            <h2 class="title is-2">Our Environmental Values</h2>
+            <div class="markdown">
+                <p>Sustainability and the environment have never been more important.
+                    <br>
+                    Here at Growful we endeavour to minimise our environmental impacts wherever we can. Our eco-friendly gifts are centred around plants, the environment and wildlife, with each product supplied from small boutique businesses around the country.</p>
+                <p> We would urge you to read more about our ecological focus in the <strong><a href="/ourstory.html">Our Story</a></strong> tab.</p>
+                <div class="container top-pad">
+                    <a href="#top">
+                        <i class="fa fa-arrow-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container fade-in">
+        <hr>
+    </div>
+    <div class="section gffooter" id="footer">
+        <div class="container has-text-centered">
+            <span class="footer-text">
+                    <a class="fa-pull-left" href="/pdfs/Terms and conditions for sale of goods to consumers.pdf"><strong>Terms and Conditions</strong></a>
+                    <a class="fa-pull-right" href="/pdfs/Privacy Policy.pdf"><strong>Privacy Policy</strong></a>
+            </span>
+        </div>
+    </div>
+    <div class="container fade-in">
+        <hr>
+    </div>
+    <script src="/js/bundle.js"></script>
+    <script src="/js/bundleOwlCarousel.afccb665ffddf92101a8bc04b924a4a5b9a36c0ad0ad61024da751cdd8fd1ed9.js" integrity="sha256-r8y2Zf/d&#43;SEBqLwEuSSkpbmjbArQrWECTadRzdj9Htk="></script>
+    <script src="/js/customjs.js"></script>
 </body>
+</html>
