@@ -1,5 +1,5 @@
 * {
-    background-color: #f3eee6;
+    background-color: #ffffff;
 }
 
 img {
@@ -7,11 +7,19 @@ img {
     box-shadow: none;
 }
 
-.navbar-item,
-.navbar-link {
-    color: #f3eee6
+.navbar-burger{
+    color: #ffffff;
+    background-color: #69A88D;
 }
 
+.navbar-item,
+.navbar-link {
+    color: #ffffff
+}
+
+a.navbar-burger:focus,
+a.navbar-burger:hover,
+a.navbar-burger.is-active,
 a.navbar-item:focus,
 a.navbar-item:hover,
 a.navbar-item.is-active,
@@ -20,13 +28,13 @@ a.navbar-item.is-active,
 .navbar-link.is-active,
 .gfdropbtn {
     background-color: #176560;
-    color           : #f3eee6
+    color           : #ffffff
 }
 
 
 .gfdropbtn {
     background-color: #69A88D;
-    color           : #f3eee6;
+    color           : #ffffff;
     padding         : 16px;
     font            : 400 15px/1.8 "Lato", sans-serif;
     border          : none;
@@ -50,13 +58,13 @@ a.navbar-item.is-active,
 .gfdropdown-content {
     display         : none;
     position        : absolute;
-    background-color: #f3eee6;
+    background-color: #ffffff;
     min-width       : 160px;
     box-shadow      : 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .gfdropdown-content a {
-    color          : #f3eee6;
+    color          : #ffffff;
     background-color: #69A88D;
     padding        : 12px 16px;
     text-decoration: none;
@@ -75,7 +83,7 @@ a.navbar-item.is-active,
 
 body,
 html {
-    background-color: #f3eee6;
+    background-color: #ffffff;
     height          : 100%;
     margin          : 0;
     font            : "Quicksand";
@@ -219,6 +227,7 @@ h3 {
     margin-bottom: 2%
 }
 
+.ptxtbox10,
 .ptxtboxmedium,
 .ptxtboxlarge,
 .ptxtboxsmall {
@@ -240,9 +249,17 @@ h3 {
     width: 25%
 }
 
+.ptxtbox10 {
+    width: auto;
+    height: auto;
+}
+
 .gffooter {
-    padding: 0;
-    padding-bottom: 14px
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 14px;
+    background-color: #69A88D;
 }
 
 .leftelement {
@@ -273,4 +290,47 @@ ul {
 
 .gfcycle {
     display: none
+}
+
+.fscontainer {
+    max-width: 100% ;
+}
+
+.stickynavbar{
+    position: fixed;
+    width: 100%;
+    top: 0
+}
+
+.ulfooter{
+    background-color: #69A88D;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.lifooter{
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #69A88D;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.gffooter *{
+    background-color: #69a88d;
+    color: #ffffff;
+}
+
+.gffooter a:hover,
+.gffooter a:focus,
+.gffooter a:active{
+    color: #176560;
+    font-weight: bold; 
+}
+
+.gfrow {
+    display: flex;
+    flex-direction: row;
 }

@@ -33,8 +33,7 @@
     <section id="top" class="hero is-medium">
         <div class="hero-head"></div>
         <div class="hero-foot fade-in">
-            <div class="container">
-                <hr>
+            <div class="container fscontainer stickynavbar">
                 <nav class="navbar" role="navigation" aria-label="main navigation">
                     <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
                         <span aria-hidden="true"></span>
@@ -46,8 +45,7 @@
                             <button onmouseover="gfddOnMouseOver(1)" onclick="gfddOnClick('index')" class="navbar-item gfdropbtn">Home</button>
                             <div id="gfmyDropdown1" class="gfdropdown-content">
                               <a href="/index.html#ourproducts">Our Products</a>                              
-                              <a href="/index.html#ourmessage">Our Message</a>
-                              <a href="/index.html#ourenvironmentalvalues">Our Environmental Values</a>
+                              <a href="/index.html#aboutus">About Us</a>
                             </div>
                         </div>
                         <div class="gfdropdown">
@@ -69,28 +67,29 @@
                             </div>
                         </div>
                         <div class="gfdropdown">
-                            <button onmouseover="gfddOnMouseOver(4)" onclick="gfddOnClick('shop')" class="navbar-item gfdropbtn">Shop</button>
+                            <button onmouseover="gfddOnMouseOver(4)" onclick="gfddOnClick('greetingscards')" class="navbar-item gfdropbtn">Greetings Cards</button>
                             <div id="gfmyDropdown4" class="gfdropdown-content">
-                              <a href="/shop.html#purchasingdetails">Purchasing Details</a>
-                              <a href="/shop.html#ourgreetingscards">Our Greetings Cards</a>
-                              <a href="/shop.html#orderform">Order Form</a>
+                              <a href="/greetingscards.html#ourplantablecards">Our Plantable Cards</a>
+                              <a href="/greetingscards.html#orderform">Order Form</a>
                             </div>
                         </div>
                         <div class="gfdropdown">
                             <button onmouseover="gfddOnMouseOver(5)" onclick="gfddOnClick('customercare')" class="navbar-item gfdropbtn">Customer Care</button>
                             <div id="gfmyDropdown5" class="gfdropdown-content">
-                              <a href="/customercare.html">Customer Care</a>
                               <a href="/customercare.html#oursocials">Our Socials</a>
                               <a href="/customercare.html#contactus">Contact Us</a>
                             </div>
                         </div>
                     </div>
                 </nav>
-                <hr>
             </div>
         </div>
+        <br>
         <div class="hero-body" z-index="2">
             <div class="container has-text-centered">
+                <div class="container fade-in">
+                    <hr>
+                </div>
                 <img src="/imgs/logo_600_340.png" class="fade-in gftitle" alt="Growful" width="600" height="340">
                 <div class="subtitle is-3 fade-in one">
                     <p>Cultivating relationships</p>
@@ -124,61 +123,36 @@
                 <p>Our seed paper cards are great for connecting with friends and family. Each card is embedded with wildflower seeds and can be planted straight in your garden or in a Growful gift box. Whether you want a classy wreath or retro santa design, our cards are a brilliant buy at only <strong>£2.50 each</strong>, or <strong>five for £10</strong>. To get your hands on one or more, click <strong><a href="/shop.html#orderform">here</a></strong>.</p>
                 <p>Make sure to visit our page for <strong><a href="/thegiftbox.html">The Gift Box</a></strong> and the <strong><a href="/shop.html">Shop</a></strong> page.</p>
             </div>
-            <div class="has-text-centered top-pad">
-                <a href="#top">
-                    <i class="fa fa-arrow-up"></i>
-                </a>
-            </div>
         </div>
     </div>
     <div class="container fade-in">
         <hr>
     </div>
-    <div class="section fade-in bgimg-2" id="ourmessage">
-        <div class="container ptxtboxlarge">
-            <h2 class="title is-2 has-text-centered">Our Message</h2>
-            <div class="markdown has-text-centered">
+    <div class="section fade-in bgimg-2" id="aboutus">
+        <div class="container ptxtboxmedium has-text-centered">
+            <h2 class="title is-2">Our Message</h2>
+            <div class="markdown">
                 <p>We strive to make a difference, cultivating relationships through the power of plants. At a time where family, kindness, the environment and wellbeing has never been more important, we aim to help keep people connected together with a gift that grows on you.     </p>
-                <div class="container has-text-centered top-pad">
-                    <a href="#top">
-                        <i class="fa fa-arrow-up"></i>
-                    </a>
-                </div>
             </div>
-        </div>
-    </div>
-    <div class="container fade-in">
-        <hr>
-    </div>
-    <div class="section fade-in bgimg-1" id="ourenvironmentalvalues">
-        <div class="container ptxtboxlarge has-text-centered">
+            <br>
             <h2 class="title is-2">Our Environmental Values</h2>
             <div class="markdown">
                 <p>Sustainability and the environment have never been more important.
                     <br>
                     Here at Growful we endeavour to minimise our environmental impacts wherever we can. Our eco-friendly gifts are centred around plants, the environment and wildlife, with each product supplied from small boutique businesses around the country.</p>
                 <p> We would urge you to read more about our ecological focus in the <strong><a href="/ourstory.html">Our Story</a></strong> tab.</p>
-                <div class="container top-pad">
-                    <a href="#top">
-                        <i class="fa fa-arrow-up"></i>
-                    </a>
-                </div>
             </div>
         </div>
-    </div>
-    <div class="container fade-in">
-        <hr>
     </div>
     <div class="section gffooter" id="footer">
         <div class="container has-text-centered">
             <span class="footer-text">
-                    <a class="fa-pull-left" href="/pdfs/Terms and conditions for sale of goods to consumers.pdf"><strong>Terms and Conditions</strong></a>
-                    <a class="fa-pull-right" href="/pdfs/Privacy Policy.pdf"><strong>Privacy Policy</strong></a>
+                <ul class="ulfooter">
+                    <li class="lifooter"><a href="/pdfs/Terms and conditions for sale of goods to consumers.pdf">Terms and Conditions</a></li>
+                    <li class="lifooter"><a href="/pdfs/Privacy Policy.pdf">Privacy Policy</a></li>
+                </ul>
             </span>
         </div>
-    </div>
-    <div class="container fade-in">
-        <hr>
     </div>
     <script src="/js/bundle.js"></script>
     <script src="/js/bundleOwlCarousel.afccb665ffddf92101a8bc04b924a4a5b9a36c0ad0ad61024da751cdd8fd1ed9.js" integrity="sha256-r8y2Zf/d&#43;SEBqLwEuSSkpbmjbArQrWECTadRzdj9Htk="></script>
