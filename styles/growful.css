@@ -2,7 +2,8 @@
     background-color: #ffffff;
 }
 
-img {
+img,
+video {
     border    : none;
     box-shadow: none;
 }
@@ -60,7 +61,7 @@ a.navbar-item.is-active,
     position        : absolute;
     background-color: #ffffff;
     min-width       : 160px;
-    box-shadow      : 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow      : none;
 }
 
 .gfdropdown-content a {
@@ -95,6 +96,7 @@ html {
 .bgimg-3,
 .bgbox,
 .bgcandles,
+.bgchocolate,
 .bgetb,
 .bgsoap,
 .bgstraws,
@@ -141,6 +143,16 @@ bgbox is from Pixabay thanks to Projekt_Kaffeebart
     padding-bottom: 15%;
 }
 
+.bgchocolate {
+    background-image: url("/imgs/thegiftbox/bgchocolate.jpg");
+    padding-top: 15%;
+    padding-bottom: 15%
+}
+
+/* <span>Photo by <a href="https://unsplash.com/@hectoremilio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Héctor Emilio Gonzalez</a> on <a href="https://unsplash.com/s/photos/cocoa-beans?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+bgchocolate is from Unsplash thanks to Héctor Emilio Gonzalez
+/*/
+
 .bgetb {
     background-image: url("/imgs/thegiftbox/bgetb.jpg");
     padding-top: 15%;
@@ -181,8 +193,6 @@ bgbox is from Pixabay thanks to Projekt_Kaffeebart
 }
 
 .caption span.border {
-    background-color: #111;
-    color           : #fff;
     padding         : 18px;
     font-size       : 25px;
     letter-spacing  : 10px;
@@ -192,7 +202,7 @@ h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
     font          : 20px "Lato", sans-serif;
-    color         : #111;
+    color         : #176560;
 }
 
 @media only screen and (max-device-width: 1024px) {
@@ -202,6 +212,7 @@ h3 {
     .bgimg-3,
     .bgbox,
     .bgcandles, 
+    .bgchocolate,
     .bgetb,
     .bgsoap,
     .bgstraws,
@@ -224,7 +235,7 @@ h3 {
     border: 3px solid #176560;
     padding: 1%;
     border-radius: 25px;
-    margin-bottom: 2%
+    margin-bottom: 1%
 }
 
 .ptxtbox10,
@@ -288,10 +299,6 @@ ul {
     background-color: #69A88D;
 }
 
-.gfcycle {
-    display: none
-}
-
 .fscontainer {
     max-width: 100% ;
 }
@@ -313,8 +320,8 @@ ul {
     color: #ffffff;
     background-color: #69A88D;
     display: inline-block;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .gffooter *{
@@ -333,3 +340,75 @@ ul {
     display: flex;
     flex-direction: row;
 }
+
+.gfgrow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+.gfgcolumn {
+    flex: 33.3%;
+    max-width: 33.3%;
+    padding: 0 4px;
+    padding-bottom: 2%;
+}
+  
+  .gfgcolumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .gfgcolumn {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+  .gfSlides {
+      display: none;
+    }
+
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .slidedot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #69A88D;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .slideactive {
+    background-color: #176560;
+  }
+  
+  .slidefade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .slidetext {font-size: 11px}
+  }

@@ -28,17 +28,23 @@ window.onclick = function(event) {
   }
 }
 
-var cycleIndex = 0;
-carousel();
+var slideIndex = 0;
+showSlides();
 
-function carousel() {
+function showSlides() {
   var i;
-  var x = document.getElementsByClassName("gfcycle");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+  var slides = document.getElementsByClassName("gfSlides");
+  var dots = document.getElementsByClassName("slidedot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
-  cycleIndex++;
-  if (cycleIndex > x.length) {cycleIndex = 1}
-  x[cycleIndex-1].style.display = "block";
-  setTimeout(carousel, 2000);
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" slideactive", "");
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " slideactive";
+  setTimeout(showSlides, 3500);     
 }
+
